@@ -8,5 +8,6 @@ class ApplicationController < ActionController::Base
       cart = session[cart]
     else 
       cart = []
+    end 
   end
 end
