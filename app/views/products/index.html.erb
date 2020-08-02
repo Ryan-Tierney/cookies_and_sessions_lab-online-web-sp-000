@@ -1,8 +1,4 @@
-<ul>  
-  <%= cart.each do |product| %>
-    <li><%= product %></li>
-  <% end %>
-</ul>
+<%= session[:cart] %>
 
 <%= form_tag ({controller: 'products',
     action: 'add',
